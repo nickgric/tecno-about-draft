@@ -39,7 +39,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    border: rgb(150, 150, 150) solid 1px;
 }
 
 p {
@@ -124,10 +123,6 @@ h3 {
     font-weight: 500;
 }
 
-.header img {
-    border: none;
-}
-
 /* /HEADER */
 
 
@@ -145,6 +140,7 @@ h1 {
 
 .hero-image {
     margin-bottom: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .secondary-title {
@@ -158,6 +154,7 @@ h1 {
     background-color: var(--background-color__main);
     color: var(--font-color__main);
     border-radius: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* /HERO */
@@ -166,15 +163,16 @@ h1 {
 /* CREDO */
 
 .credo-background {
-    background-image: url(../images/no-hero.jpg);
+    background-image: url(../images/credo.jpg);
+    background-size: cover;
     padding: 20px;
-    height: 750px;
     color: var(--font-color__main);
     border-radius: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .credo-background-memo {
-    width: 75%;
+    max-width: 58%;
 }
 
 /* /CREDO */
@@ -187,6 +185,20 @@ h1 {
     height: 750px;
     color: var(--font-color__main); 
     border-radius: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
+}
+
+.premium-background li {
+    font: 1.2em/1.65 'Open Sans',Verdana,sans-serif;
+}
+
+.premium-background li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.premium-background-left {
+    min-width: 30%;
 }
 
 /* /PREMIUM */
@@ -207,7 +219,11 @@ h1 {
 
 .smartphone {
     width: calc((100% - 30px) / 2);
-    
+    background-color: var(--background-color__light);
+    color: var(--font-color__invert);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* /SMARTPHONES */
@@ -223,6 +239,11 @@ h1 {
 
 .accessory {
     width: calc((100% - 60px) / 3);
+    background-color: var(--background-color__main);
+    color: var(--font-color__main);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* /ACCESSORIES */
