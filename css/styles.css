@@ -39,6 +39,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    margin-bottom: 30px;
 }
 
 p {
@@ -50,15 +51,16 @@ h2 {
     display: block;
     font-weight: 700;
     margin-bottom: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h3 {
-    font: 1.5em/1.1 'Roboto Condensed',Verdana,Arial,sans-serif;
+    font: 3em/1.1 'Roboto Condensed',Verdana,Arial,sans-serif;
     display: block;
     font-weight: 700;
     margin-bottom: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .hidden {
@@ -77,15 +79,15 @@ h3 {
 
 .container {
     width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* /COMPONENTS */
@@ -135,25 +137,29 @@ h1 {
     font-weight: 700;
     margin-bottom: 2px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-.hero-image {
-    margin-bottom: 20px;
+.infinity {
+    background-color: var(--background-color__main);
+    margin-bottom: 30px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
 }
+
+.hero
 
 .secondary-title {
     margin-bottom: 40px;
     text-align: center;
-    
 }
 
 .hero-about {
-    padding: 20px;
+    padding: 30px;
     background-color: var(--background-color__main);
     color: var(--font-color__main);
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -164,10 +170,13 @@ h1 {
 
 .credo-background {
     background-image: url(../images/credo.jpg);
-    background-size: cover;
-    padding: 20px;
+    background-color: var(--background-color__main);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px;
     color: var(--font-color__main);
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -180,11 +189,14 @@ h1 {
 /* PREMIUM */
 
 .premium-background {
-    background-image: url(../images/no-hero.jpg);
-    padding: 20px;
-    height: 750px;
+    background-image: url(../images/premium.jpg);
+    background-color: var(--background-color__main);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px;
     color: var(--font-color__main); 
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     display: flex;
 }
@@ -198,7 +210,7 @@ h1 {
 }
 
 .premium-background-left {
-    min-width: 30%;
+    min-width: 45%;
 }
 
 /* /PREMIUM */
@@ -214,15 +226,15 @@ h1 {
 .smartphones-categories {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
 }
 
 .smartphone {
-    width: calc((100% - 30px) / 2);
+    width: calc((100% - 50px) / 2);
     background-color: var(--background-color__light);
     color: var(--font-color__invert);
-    padding: 20px;
-    border-radius: 20px;
+    padding: 30px;
+    border-radius: 30px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -241,8 +253,8 @@ h1 {
     width: calc((100% - 60px) / 3);
     background-color: var(--background-color__main);
     color: var(--font-color__main);
-    padding: 20px;
-    border-radius: 20px;
+    padding: 30px;
+    border-radius: 30px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
