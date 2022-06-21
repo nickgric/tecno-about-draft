@@ -181,7 +181,7 @@ h1 {
 }
 
 .credo-background-memo {
-    max-width: 58%;
+    max-width: 55%;
 }
 
 /* /CREDO */
@@ -209,8 +209,8 @@ h1 {
     margin-bottom: 15px;
 }
 
-.premium-background-left {
-    min-width: 45%;
+.premium-background-memo {
+    max-width: 55%;
 }
 
 /* /PREMIUM */
